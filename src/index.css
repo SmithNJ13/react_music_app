@@ -15,9 +15,9 @@
 }
 
 body {
-  background-image: linear-gradient(0deg,
+  background-image: linear-gradient(180deg,
   rgba(0,0,0,1),
-  rgba(0,0,0,0.6));
+  rgba(0,0,0,0.9));
   margin: 0;
   display: flex;
   place-items: center;
@@ -34,7 +34,7 @@ body {
   padding-top: 1rem;
 }
 #return button {
-  color: green;
+  color: gold;
   background-color: rgba(50,50,50, 0.25);
   width: 4rem;
   height: 3rem;
@@ -62,13 +62,13 @@ body {
   transition: all 0.25s ease-in;
 }
 #menu h1:hover {
-  color: green;
+  color: gold;
   cursor: pointer;
 }
 #info h1 {
   position: relative;
   top: -10vh;
-  color: green;
+  color: gold;
   font-size: 3.2em;
   font-weight: bold;
   line-height: 1.1;
@@ -77,6 +77,14 @@ body {
 img {
   position: relative;
   top: -10vh;
+}
+#icon {
+  scale: 25%;
+}
+#ring {
+  position: relative;
+  scale: 26%;
+  right: 320px;
 }
 
 button {

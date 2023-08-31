@@ -75,6 +75,8 @@ function App() {
   const [CurrentArtist, SetArtist] = useState(0);
   return (
     <>
+    <img id="icon" src="src/assets/musicIcon.png"></img>
+    <img id="ring" src="src\assets\selectionRing.png"></img>
     <div id="return">
       <button onClick={() => SetArtist(0)}>///</button>
     </div>

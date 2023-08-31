@@ -1,8 +1,7 @@
-# React + Vite
+Layout:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+| Home
+    | Artists
+        | Albums [Displays all associated Albums & EPs with an Artist]
+        | Songs [Displays all associated Songs with an Artist]
+    | Songs [Randomly pick a song? Daily top 5? etc;]
